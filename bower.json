@@ -5,6 +5,7 @@
   "authors": [
     "Koga Kazuo <obiwanko@me.com>"
   ],
+  "homepage": "https://github.com/kkazuo/purescript-wamp",
   "ignore": [
     "**/.*",
     "node_modules",
