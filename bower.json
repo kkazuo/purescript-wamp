@@ -1,0 +1,25 @@
+{
+  "name": "purescript-wamp",
+  "license": "MIT",
+  "description": "PureScript bindings of Autobahn|JS",
+  "authors": [
+    "Koga Kazuo <obiwanko@me.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "autobahnjs": "autobahn#^0.11.2",
+    "purescript-aff": "^2.0.2",
+    "purescript-aff-promise": "^0.4.0",
+    "purescript-console": "^2.0.0",
+    "purescript-maybe": "^2.0.1",
+    "purescript-prelude": "^2.1.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^2.0.0"
+  }
+}
