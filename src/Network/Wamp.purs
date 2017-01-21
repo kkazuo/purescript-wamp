@@ -7,7 +7,7 @@
 -- |
 -- |main = do
 -- |  conn <- Wamp.connection { realm: "realm1", url: "ws://example.com/ws" }
--- |  conn # Wamp.onOpen \sess do
+-- |  conn # Wamp.onOpen \sess -> do
 -- |    sess # Wamp.pub1 "com.myapp.hello" "Hello, World!"
 -- |  conn # Wamp.open
 -- |```
