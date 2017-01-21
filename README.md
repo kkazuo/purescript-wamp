@@ -22,6 +22,8 @@ main = do
   conn # Wamp.open
 ```
 
+You might setup example WAMP server with [Crossbar.io Docker Image](https://hub.docker.com/r/crossbario/crossbar/).
+
 ## Documentation
 
 Module documentation is [published on Pursuit](https://pursuit.purescript.org/packages/purescript-wamp/).
