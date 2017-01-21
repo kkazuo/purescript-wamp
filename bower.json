@@ -6,6 +6,10 @@
     "Koga Kazuo <obiwanko@me.com>"
   ],
   "homepage": "https://github.com/kkazuo/purescript-wamp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kkazuo/purescript-wamp.git"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
