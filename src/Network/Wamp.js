@@ -1,7 +1,7 @@
 'use strict';
 
 var g = typeof global !== 'undefined' ? global : window;
-g.autobahn = (typeof g.autobahn !== 'undefined') ? g.autobahn : require('autobahn');
+g.Autobahn = (typeof g.Autobahn !== 'undefined') ? g.Autobahn : require('autobahn');
 
 function WampError(e) {
     this.name = 'WampError';
@@ -19,7 +19,7 @@ var tojse = function(e) {
 };
 
 exports.connection = function(opt) { return function() {
-    return new autobahn.Connection(opt);
+    return new Autobahn.Connection(opt);
 };};
 
 exports.onOpen = function(onopen) { return function(conn) { return function() {
