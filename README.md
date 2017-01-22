@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/kkazuo/purescript-wamp.svg?branch=master)](https://travis-ci.org/kkazuo/purescript-wamp)
 
-A bindings of [Autobahn|JS](http://autobahn.ws/js/).
+`purescript-wamp` contains purescript bindings for [Autobahn|JS](http://autobahn.ws/js/).
 
 ## Installation
 
