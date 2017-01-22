@@ -7,6 +7,7 @@ A bindings of [Autobahn|JS](http://autobahn.ws/js/).
 ## Installation
 
 ```
+npm i autobahn
 bower i purescript-wamp
 ```
 
