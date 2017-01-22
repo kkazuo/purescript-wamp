@@ -17,6 +17,7 @@
     "output"
   ],
   "dependencies": {
+    "autobahn": "^0.11.2",
     "purescript-aff": "^2.0.2",
     "purescript-aff-promise": "^0.4.0",
     "purescript-console": "^2.0.0",
