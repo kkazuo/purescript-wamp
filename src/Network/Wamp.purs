@@ -1,6 +1,6 @@
 -- |WAMP (Web Application Messaging Protocol)
 -- |
--- |Bindings to (Autobahn|JS)[http://autobahn.ws/js/]
+-- |Bindings to [Autobahn|JS](http://autobahn.ws/js/)
 -- |
 -- |``` purescript
 -- |import Network.Wamp as Wamp

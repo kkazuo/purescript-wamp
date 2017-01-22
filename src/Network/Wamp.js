@@ -1,6 +1,7 @@
 'use strict';
 
-var autobahn = require('autobahn');
+var g = typeof global !== 'undefined' ? global : window;
+g.autobahn = (typeof g.autobahn !== 'undefined') ? g.autobahn : require('autobahn');
 
 function WampError(e) {
     this.name = 'WampError';

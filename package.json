@@ -9,5 +9,8 @@
     "pulp": "^9.0.1",
     "purescript-psa": "^0.3.9",
     "rimraf": "^2.5.0"
+  },
+  "dependencies": {
+    "autobahn": "^0.11.2"
   }
 }
